@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/knowledge/knowledge",
+    "pages/my/my",
+    "pages/index/index"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00abff",
+    "navigationBarTitleText": "wanAnroid",
+    "navigationBarTextStyle":"white"
+  },
+
+  "tabBar": {
+    "color":"#8a8a8a",
+    "selectedColor":"#00abff",
+    "backgroundColor":"#ffffff",
+    "borderStyle":"black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath":"/image/tabbar/home.png",
+        "selectedIconPath":"/image/tabbar/home_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/knowledge/knowledge",
+        "iconPath": "/image/tabbar/knowledge.png",
+        "selectedIconPath": "/image/tabbar/knowledge_select.png",
+        "text": "体系"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "/image/tabbar/my.png",
+        "selectedIconPath": "/image/tabbar/my_select.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

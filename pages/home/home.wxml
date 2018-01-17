@@ -1,0 +1,79 @@
+<view>
+
+  <view class='selection'>
+    <swiper class='swiper' indicator-dots="{{indicatorDots}}"autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view>
+    <view class='header'>
+      <text class='text-commint'>精品推荐</text>
+      <text class='text-all'>全部精品</text>
+    </view>
+
+    <view class='content'>
+      <view class='content-item' bindtap='click'>
+        <image src='../../image/home/img_01.jpg'></image>
+        <view class='content-item-text'>
+          <text>这里是标题1</text>
+        </view>
+      </view>
+      <view class='content-item'>
+        <image src='../../image/home/img_02.jpg'></image>
+        <view class='content-item-text'>
+          <text>这里是标题2</text>
+        </view>
+      </view>
+      <view class='content-item'>
+        <image src='../../image/home/img_03.jpg'></image>
+        <view class='content-item-text'>
+          <text>这里是标题3</text>
+        </view>
+      </view>
+      <view class='content-item'>
+        <image src='../../image/home/img_04.jpg'></image>
+        <view class='content-item-text'>
+          <text>这里是标题4</text>
+        </view>
+      </view>
+    </view>
+  
+  </view>
+
+  <view>
+    <view class='header'>
+      <text class='text-commint'>热门评测</text>
+      <text class='text-all'>全部热门</text>
+    </view>
+
+    <view class='list-item' wx:for="{{listItem}}">
+
+      <view class='list-item-images'>
+        <image src='{{item}}' class='list-item-image'></image>
+        <image src='../../image/home/avatar.png' class='list-item-avatar'></image>
+      </view>
+
+      <view class='list-item-text'>
+        <view class='list-item-text-title'>
+          <text>玩Android</text>
+        </view>
+
+        <view class='list-item-text-contain'>
+          <text>剖析Activity、Window、ViewRootImpl和View之间的关系,天猫客户端组件动态化的方案——VirtualView</text>
+        </view>
+      </view>
+    
+    </view>
+
+  
+  </view>
+  
+
+
+</view>
+
