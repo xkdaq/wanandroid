@@ -2,24 +2,21 @@
 
 ##1.简介
 
-本网站每天新增20~30篇优质文章，并加入到现有分类中，力求整理出一份优质而又详尽的知识体系，闲暇时间不妨上来学习下知识；除此以外，并为大家提供平时开发过程中常用的工具以及常用的网址导航。
+玩Android是一个每日推荐Android优质文章的站点,提供Android常用工具和常用网站
 
-当然这只是我们目前的功能，未来我们将提供更多更加便捷的功能…
+该项目已网站www.wanandroid.com开发的微信小程序
 
-如果您有任何好的建议：
+如果对网站有任何好的建议：
 - 关于网站排版
 - 关于新增常用网址以及工具
 - 未来你希望增加的功能等
 
-可以在https://github.com/hongyangAndroid/wanandroid 项目中以issue的形式提出
+可以在https://github.com/hongyangAndroid/wanandroid  项目中以issue的形式提出
 
 如果您希望长期关注本站，可以加入我们的QQ群：591683946
 
-
-
-##2.开放api
+##2.开放api(目前暂时没有进行网络请求,数据是写死的)
 [玩Android 开放API](http://www.wanandroid.com/blog/show/2 "玩Android开放api")
-
 
 
 ##3.致谢
