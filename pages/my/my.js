@@ -7,6 +7,30 @@ Page({
   data: {
   
   },
+  
+  onShow() {
+    this.getUserInfo();
+  },
+
+  /**
+   * 通过微信获取个人信息
+   */
+  getUserInfo: function (cb) {
+    var that = this
+    wx.login({
+      success: function () {
+        wx.getUserInfo({
+          success: function (res) {
+            that.setData({
+              userInfo: res.userInfo
+            });
+          }
+        })
+      }
+    })
+  },
+
+
 
   /**
    * 分享

@@ -28,9 +28,10 @@
 			"current": 0,
 			"list": [
 				{
-					"id": -1,
+					"id": 0,
 					"name": "页面编译",
-					"pathName": "pages/knowledge/knowledge"
+					"pathName": "pages/my/my",
+					"query": ""
 				}
 			]
 		}
