@@ -5,6 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
+    /**
+     * 轮播图
+     */
     imgUrls: [
       'http://www.wanandroid.com/blogimgs/acc23063-1884-4925-bdf8-0b0364a7243e.png',
       'http://www.wanandroid.com/blogimgs/ffb61454-e0d2-46e7-bc9b-4f359061ae20.png',
@@ -18,6 +21,9 @@ Page({
     interval: 5000,
     duration: 1000,
 
+    /**
+     * 热门评测集合
+     */
     listItem: [
     '../../image/home/img_08.jpg',
     '../../image/home/img_07.jpg', 
@@ -30,21 +36,13 @@ Page({
   
   },
 
-  click:function(){
-    wx.navigateTo({
-      url: '../knowledge/knowledge'
-    })
-
-  },
-
-
-
-
-
+  /**
+   * 分享
+   */
   onShareAppMessage: function () {
     return {
-      title: '自定义转发标题',
-      path: '../home/home'
+      title: '玩Android是一个每日推荐Android优质文章的站点',
+      path: '/pages/home/home'
     }
   }
 })
