@@ -1,2 +1,18 @@
 <!--pages/knowledge/knowledge.wxml-->
-<text>pages/knowledge/knowledge.wxml</text>
+<view class='contain'>
+
+  <view class = 'list-contain' wx:for='{{listItem}}'>
+
+    <view class='list-text-title' >
+      <text>{{item}}</text>
+    </view>
+
+    <view class='list-text-contain'>
+      <view class='list-text-item' wx:for='{{listContain}}'>
+        <text>{{item}}</text>
+      </view>
+    </view>
+
+  </view>
+
+</view>

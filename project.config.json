@@ -25,8 +25,14 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "页面编译",
+					"pathName": "pages/knowledge/knowledge"
+				}
+			]
 		}
 	}
 }
