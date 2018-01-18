@@ -15,11 +15,16 @@
 
 如果您希望长期关注本站，可以加入我们的QQ群：591683946
 
-##2.开放api(目前暂时没有进行网络请求,数据是写死的)
+##2.效果图
+![](https://github.com/xkdaq/wanandroid/tree/master/screenshot/shot_01)
+![](https://github.com/xkdaq/wanandroid/tree/master/screenshot/shot_02)
+![](https://github.com/xkdaq/wanandroid/tree/master/screenshot/shot_03)
+
+##3.开放api(目前暂时没有进行网络请求,数据是写死的)
 [玩Android 开放API](http://www.wanandroid.com/blog/show/2 "玩Android开放api")
 
 
-##3.致谢
+##4.致谢
 - 感谢微信公众平台开放文档以及api:https://mp.weixin.qq.com/debug/wxadoc/dev/
 - 感谢摄图网提供优质图片: http://699pic.com  
 - 感谢阿里巴巴矢量图标库iconfontt提供程序图标:http://www.iconfont.cn/home/index

@@ -39,9 +39,17 @@
   padding: 0 20rpx;
 }
 
+.item_my image{
+  width: 24px;
+  height: 24px;
+  margin-left: 10rpx;
+
+}
+
 .item_my text{
   font-size: 17px;
   color: #8a8a8a;
+  margin-left: 26rpx;
 }
 
 

@@ -6,14 +6,17 @@
 	</view>
 
   <view class='item_my'>
+    <image src="../../image/my/icon_hot.png"></image>
     <text>热门</text>
   </view>
 
   <view class='item_my'>
+    <image src="../../image/my/icon_like.png"></image>
     <text>我的收藏</text>
   </view>
 
   <view class='item_my'>
+    <image src="../../image/my/icon_aboutus.png"></image>
     <text>关于我们</text>
   </view>
 
