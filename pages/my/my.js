@@ -30,6 +30,42 @@ Page({
     })
   },
 
+  /**
+   * 热门
+   */
+  hotClick:function(){
+    this.showToase();
+  },
+
+  /**
+   * 我的收藏
+   */
+  likeClick:function(){
+    this.showToase();
+  },
+
+  /**
+   * 关于我们
+   */
+  aboutUsClick:function(){
+    wx.navigateTo({
+      url: '/pages/aboutus/aboutus',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
+
+  /**
+   * showToase
+   */
+  showToase:function(){
+    wx.showToast({
+      title: '正在开发中',
+      icon: 'success',
+      duration: 2000
+    })
+  },
 
 
   /**

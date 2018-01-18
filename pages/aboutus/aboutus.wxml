@@ -1,0 +1,22 @@
+<!--pages/aboutus/aboutus.wxml-->
+<view class='contain'>
+  
+  <view class='title'>
+    <image src='../../image/logo/logo.png'></image>
+    <text>玩Android v1.1.0</text>
+  </view>
+
+
+  <view class='cotain'>
+    <view>玩Android是一个每日推荐Android优质文章的站点,提供常用工具和常用网站,该项目是以网站开发的微信小程序。</view>
+    <view class='item'>如果对网站有任何好的建议:</view>
+    <view>1.关于网站排版</view>
+    <view>2.关于新增常用网址以及工具</view>
+    <view>3.未来你希望增加的功能等</view>
+    <view>可以在项目中以issue的形式提出:
+          <text>https://github.com/hongyangAndroid/wanandroid</text></view>
+    <view class='item'>如果您希望长期关注本站，可以加入我们的QQ群：
+          <text>591683946</text></view>
+  </view>
+
+</view>

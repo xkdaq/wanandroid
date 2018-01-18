@@ -25,9 +25,6 @@ Page({
      * 热门评测集合
      */
     listItem: [
-    '../../image/home/img_08.jpg',
-    '../../image/home/img_07.jpg', 
-    '../../image/home/img_06.jpg', 
     '../../image/home/img_05.jpg', 
     '../../image/home/img_04.jpg',
     '../../image/home/img_03.jpg',

@@ -3,7 +3,7 @@
     "pages/home/home",
     "pages/knowledge/knowledge",
     "pages/my/my",
-    "pages/index/index"
+    "pages/aboutus/aboutus"
 
   ],
   "window":{

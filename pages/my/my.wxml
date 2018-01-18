@@ -5,19 +5,22 @@
 		<text class="userinfo-nickname">{{userInfo.nickName}}</text>
 	</view>
 
-  <view class='item_my'>
-    <image src="../../image/my/icon_hot.png"></image>
+  <view class='item_my' bindtap='hotClick'>
+    <image src="../../image/my/icon_hot.png" class='icon'></image>
     <text>热门</text>
+    <image src='../../image/my/icon_next.png' class='next'></image>
   </view>
 
-  <view class='item_my'>
-    <image src="../../image/my/icon_like.png"></image>
+  <view class='item_my' bindtap='likeClick'>
+    <image src="../../image/my/icon_like.png" class='icon'></image>
     <text>我的收藏</text>
+    <image src='../../image/my/icon_next.png' class='next'></image>
   </view>
 
-  <view class='item_my'>
-    <image src="../../image/my/icon_aboutus.png"></image>
+  <view class='item_my' bindtap='aboutUsClick'>
+    <image src="../../image/my/icon_aboutus.png" class='icon'></image>
     <text>关于我们</text>
+    <image src='../../image/my/icon_next.png' class='next'></image>
   </view>
 
 </view>
