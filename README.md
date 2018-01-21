@@ -18,7 +18,7 @@
 ##2.效果图:
 [效果图](https://github.com/xkdaq/wanandroid/tree/master/screenshot/shot_01.png "效果图")
 
-##3.开放api(微信目前限制只能使用https所以官网的api全是http不能使用,数据是写死的)
+##3.开放api(微信目前限制只能使用https,而官网的api全是http开发调试是没有问题的,在开发工具勾选不校验安全域名和https证书)
 [玩Android 开放API](http://www.wanandroid.com/blog/show/2 "玩Android开放api")
 
 
