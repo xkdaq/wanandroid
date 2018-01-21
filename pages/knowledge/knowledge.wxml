@@ -1,15 +1,15 @@
 <!--pages/knowledge/knowledge.wxml-->
 <view class='contain'>
 
-  <view class = 'list-contain' wx:for='{{listItem}}'>
+  <view class = 'list-contain' wx:for='{{listItem}}' wx:for-index="idx" wx:for-item="itemName">
 
     <view class='list-text-title' >
-      <text>{{item}}</text>
+      <text>{{itemName.name}}</text>
     </view>
 
     <view class='list-text-contain'>
-      <view class='list-text-item' wx:for='{{listContain}}'>
-        <text>{{item}}</text>
+      <view class='list-text-item' wx:for='{{itemName.children}}'>
+        <text>{{item.name}}</text>
       </view>
     </view>
 

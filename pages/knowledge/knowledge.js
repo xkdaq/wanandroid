@@ -5,9 +5,33 @@ Page({
    * 页面的初始数据
    */
   data: {
-    listItem: ['开发环境', '基础知识', '四大组件', '常用控件', '自定义控件', '用户交互', '网络访问', '图片加载', '数据存储', '动画效果', '四大组件', '基础知识', '四大组件', '基础知识', '四大组件'],
+    listItem: []
+  },
 
-    listContain: ['Android相关', 'gradle', '官方发布', '字符编码', 'popupwindow', 'activity', 'service', 'context', '三级缓存', '内存管理', 'toast', 'dialog', 'handle','基础布局','基础ui空间']
+  onLoad:function(options){
+    var that = this;
+    wx.showToast({
+      title: '正在加载',
+      icon:'loading',
+    })
+     
+    wx.request({
+      url: 'http://www.wanandroid.com/tree/json',
+      method: 'GET',
+      success: function (res) {
+        console.log(res.data);
+        console.log(res.data.errorCode);
+        that.setData({
+          listItem: res.data.data
+        })
+      },
+      fail:function(){
+        console.log('-------fail-------');
+      },
+      complete:function(){
+        wx.hideToast();
+      }
+    })
   },
 
   /**

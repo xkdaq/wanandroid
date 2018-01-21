@@ -16,12 +16,12 @@
   width: 100%;
   margin-top: 10rpx;
   font-size: 13px;
+  color: #8a8a8a;
   display: flex;
   flex-wrap:wrap;
 }
 
 .list-text-item{
   margin-right: 20rpx;
-  
 }
 

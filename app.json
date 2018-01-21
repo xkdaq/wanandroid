@@ -29,7 +29,7 @@
         "pagePath": "pages/knowledge/knowledge",
         "iconPath": "/image/tabbar/knowledge.png",
         "selectedIconPath": "/image/tabbar/knowledge_select.png",
-        "text": "体系"
+        "text": "知识体系"
       },
       {
         "pagePath": "pages/my/my",
